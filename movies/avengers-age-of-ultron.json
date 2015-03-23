@@ -1,0 +1,77 @@
+{
+    "id": "avengers-age-of-ultron", 
+    "name": "Avengers: Age of Ultron", 
+    "plot": [
+        "Marvel Studios presents Avengers: Age of Ultron, the epic follow-up to the biggest Super Hero movie of all time. When Tony Stark tries to jumpstart a dormant peacekeeping program, things go awry and Earth’s Mightiest Heroes, including Iron Man, Captain America, Thor, Hulk, Black Widow and Hawkeye, along with support from Nick Fury and Maria Hill are put to the ultimate test as the fate of the planet hangs in the balance. As the villainous Ultron emerges, it is up to the Avengers to stop him from enacting his terrible plans, and soon uneasy alliances and unexpected action pave the way for an epic and unique global adventure.",
+        "..Movie not released yet..."
+    ], 
+    "director": [
+        "Joss Whedon"
+    ],
+    "producers": [
+        "Kevin Feige",
+        "Victoria Alonso",
+        "Louis D'Esposito",
+        "Jeremy Latcham",
+        "Alan Fine",
+        "Stan Lee"
+    ],
+    "screenwriters": [
+        "Joss Whedon"
+    ],
+    "castnames": [
+        "Robert Downey, Jr. as Tony Stark/Iron Man",
+        "Chris Hemsworth as Thor",
+        "Mark Ruffalo as Bruce Banner/Hulk",
+        "Chris Evans as Steve Rogers/Captain America",
+        "Scarlett Johansson as Natasha Romanoff/Black Widow",
+        "Jeremy Renner as Clint Barton/Hawkeye",
+        "Don Cheadle as James Rhodes/War Machine",
+        "Aaron Taylor-Johnson as Pietro Maximoff/Quicksilver",
+        "Elizabeth Olsen as Wanda Maximoff/Scarlet Witch",
+        "Paul Bettany as Vision and Jarvis",
+        "Cobie Smulders as Maria Hill",
+        "Anthony Mackie as Sam Wilson/Falcon",
+        "Hayley Atwell as Peggy Carter",
+        "Idris Elba as Heimdall",
+        "Stellan Skarsgård as Erik Selvig",
+        "Samuel L. Jackson as Nick Fury",
+        "James Spader as Ultron",
+        "Thomas Kretschmann as Wolfgang von Strucker",
+        "Tom Hiddleston as Loki",
+        "Andy Serkis as Ulysses Klaw"
+    ], 
+    "castprofiles": [
+        "img/marvel/robert-downey-jr.jpg",
+        "img/marvel/chris-hemsworth.jpg",
+        "img/marvel/mark-ruffalo.jpg",
+        "img/marvel/chris-evans.jpg",
+        "img/marvel/scarlett-johansson.jpg",
+        "img/marvel/jeremy-renner.jpg",
+        "img/marvel/don-cheadle.jpg",
+        "img/marvel/aaron-taylor-johnson.jpg",
+        "img/marvel/elizabeth-olsen.jpg",
+        "img/marvel/paul-bettany.jpg",
+        "img/marvel/cobie-smulders.jpg",
+        "img/marvel/anthony-mackie.jpg",
+        "img/marvel/hayley-atwell.jpg",
+        "img/marvel/idris-elba.jpg",
+        "img/marvel/stellan-skarsgard.jpg",
+        "img/marvel/samuel-l-jackson.jpg",
+        "img/marvel/james-spader.jpg",
+        "img/marvel/thomas-kretschmann.jpg",
+        "img/marvel/tom-hiddleston.jpg",
+        "img/marvel/andy-serkis.jpg"
+    ], 
+    "releasedate": "May 1, 2015",
+    "runningtime": "150 minutes",
+    "boxoffice": 0,
+    "genre": "Action, Adventure, Fantasy",
+    "rating": "Not yet released",
+    "trailer": "https://www.youtube.com/v/tmeOjFno6Do",
+    "images": [
+        "img/marvel/avengers-age-of-ultron-00.jpg",
+        "img/marvel/iron-man-00.jpg",
+        "img/marvel/iron-man-2-00.jpg"
+    ]
+}

@@ -1,0 +1,50 @@
+<div class="container-fluid">
+      <!--Body content-->
+    
+        <div class="col-md-12">
+      <div ng-controller="SliderController">
+        <slider images="images"/>
+      </div>
+        </div>
+      
+  <div class="row movieList">
+    <div class="col-md-8">
+      <ul class="movies">
+        <li ng-repeat="movie in movies | filter:query | orderBy:orderProp"
+            class="thumbnail phone-listing">
+          <a href="#/movies/{{movie.id}}" class="thumb"><img ng-src="{{movie.imageUrl}}"></a>
+          <h1><a href="#/movies/{{movie.id}}">{{movie.name}}</a></h1>
+          <p class="release"><img id="releaseLogo" class="svg" ng-src="img/release-logo.svg">{{movie.releaseYear}}</p>
+          <p class="rating"><img class="svg imdbLogo" ng-src="img/imdb-logo.svg">{{movie.rating}}</p>
+          <p class="summary">{{movie.snippet}}</p>
+        </li>
+      </ul>
+
+    </div>
+      
+        <!--Sidebar content-->
+        <div class="col-md-4">
+            <div>
+                <p>Search: </p>
+                <input class="form-control" ng-model="query">
+            </div>
+            <div>
+            <p>Sort by: </p>
+                <select class="form-control" ng-model="orderProp">
+                    <option value="name">Alphabetical</option>
+                    <option value="age">Release Date</option>
+                    <option value="rating">Rating</option>
+                </select>
+            </div>
+            </br>
+            <div>
+                <button class="btn btn-primary">Login / Sign up with Facebook</button>
+            </div>
+            </br>
+            <div>
+                <button class="btn btn">Sign up Manually</button>
+            </div>
+        </div>
+      
+  </div>
+</div>

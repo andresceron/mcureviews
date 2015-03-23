@@ -1,0 +1,78 @@
+{
+    "id": "iron-man-2", 
+    "name": "Iron Man 2", 
+    "plot": [
+        "In Russia, the national media is televising the news conference in which Tony Stark revealed his identity as Iron Man to the world. During this, a sick Anton Vanko dies in the arms of his son, Ivan Vanko, telling him that the only thing he has left to leave him is his knowledge, which turn out to be blueprints for the Arc Reactor. He also tells his son that he has every right to the success that Tony Stark and his family has gained, which motivates Ivan to seek revenge on Stark. Six months later, Stark continues to use the Iron Man suit to protect people and his fame has increased. He reopens the Stark Expo to fulfill his father's dream to endorse inventors and the inventions that will one day benefit the world. When Stark goes off stage, he sees that his blood toxicity rising with noticeable, damaged veins around his chest and expanding. He keeps this secret from everyone but himself.",
+        "After being summoned to attend a Senate Armed Forces Committee hearing on the existence and threat of the Iron Man armor, and similar suits being developed in retaliation, Senator Stern demands that he hands his armor technology over for military application. Stark, however, refuses as he says that the Iron Man suit is him and to give it over would be to turn over himself. Justin Hammer, a rival of Stark's, tries to show the failed attempts of the military when trying to copy the technology. Later, Stark, thinking he will die, makes Pepper Potts CEO of Stark Industries and makes Natalie Rushman his new assistant. At the Monaco Grand Prix, Stark takes out the Formula One driver who is representing Stark Industries and drives it himself, seeking some enjoyment before he dies, despite putting himself in immediate danger.",
+        "Whiplash soon appears on the race track and attacks the racing cars, knowing Stark would come. But, because he was racing, he hits Stark's car. Stark puts on the portable Mark V suit and defeats Vanko. Stark discovers that Ivan is the son of disgraced Russian physicist Anton Vanko, who collaborated on the first Arc Reactor with Stark's father Howard Stark. Vanko is later broken out of jail by Justin Hammer who recruits him to help make his own Iron Man suits and gain revenge on Stark by tarnishing his name and image. Stark throws what he believes will be his last birthday party and promptly proceeds to get drunk while wearing the Mark IV armor, forcing his friend Lt. Colonel James Rhodes to don the Mark II armor and subdue him. Disgraced, Stark is approached by Nick Fury of S.H.I.E.L.D., who provides him with a chest of his father's old research that can hopefully be used to find a cure for his palladium poisoning.",
+        "Reviewing the film reels in the chest, Stark discovers a message from his father that leads him to examine the original 1974 diorama of the Stark Expo: in reality, a disguised diagram for the molecular structure of a new element. Stark hand-builds a Particle Accelerator with the aid of his computer J.A.R.V.I.S. and synthesizes this new element, creating a new, perfected Arc Reactor that cures his poisoning. Simultaneously, at the Stark Expo, Justin Hammer unveils his new military drones, captained by Rhodes in a heavily-weaponized version of the confiscated Mark II armor. Unfortunately, it is soon discovered that Vanko has complete control of both the drones and Rhodes's new armor, and Stark arrives just as they go on the attack.",
+        "As Stark battles against these remote-controlled enemies, Happy Hogan and Natalie Rushman (an undercover S.H.I.E.L.D. agent named Natasha Romanoff) race to Hammer's Hammer Industries Headquarters to stop Vanko. By the time they arrive, Vanko has already departed for the Expo in a new, more powerful suit of armor, but Romanoff is able to give Rhodes control of his armor again so that he and Stark can fight Vanko together. The two armored allies combine their powers and successfully take Vanko down, but Vanko's armor and Hammer's Drones are revealed to have been equipped to self-destruct. As they begin to detonate, Stark races to save Potts, grabbing her at the last minute. She quits her CEO position, and she finally gives him a kiss.",
+        "At a debriefing, Fury informs Stark that while Stark is 'unsuitable' for the Avengers Initiative, S.H.I.E.L.D. wants Iron Man as a consultant. Stark agrees on the condition that Senator Stern present him and Col. Rhodes with their medals for bravery. Meanwhile, S.H.I.E.L.D. agent Phil Coulson is seen driving to a remote impact crater in the New Mexico desert. Over a phone, he informs Fury that they've 'found it', which is revealed to be Mjølnir, the hammer of Thor."
+    ], 
+    "director": [
+        "Jon Favreau",
+        "Kenneth Branagh (post-credits scene)"
+    ],
+    "producers": [
+        "Victoria Alonso",
+        "Louis D'Esposito",
+        "Susan Downey",
+        "Jon Favreau",
+        "Kevin Feige",
+        "Alan Fine",
+        "Karen Johnson",
+        "Eric N. Heffron",
+        "Jeremy Latcham",
+        "Stan Lee",
+        "David Maisel",
+        "Denis L. Stewart"
+    ],
+    "screenwriters": [
+        "Justin Theroux"
+    ],
+    "castnames": [
+        "Robert Downey Jr. as Tony Stark / Iron Man",
+        "Gwyneth Paltrow as Pepper Potts",
+        "Don Cheadle as Lt.Col James 'Rhodey' Rhodes",
+        "Scarlett Johansson as Natalie Rushman / Natasha Romanoff",
+        "Sam Rockwell as Justin Hammer",
+        "Mickey Rourke as Ivan Vanko",
+        "Samuel L. Jackson as Nick Fury",
+        "Clark Gregg as Agent Coulson",
+        "John Slattery as Howard Stark",
+        "Garry Shandling as Senator Stern",
+        "Paul Bettany as Jarvis (voice)",
+        "Kate Mara as U.S. Marshal",
+        "Leslie Bibb as Christine Everhart",
+        "Jon Favreau as Hogan",
+        "Christiane Amanpour as Christiane Amanpour"
+    ], 
+    "castprofiles": [
+        "img/marvel/robert-downey-jr.jpg",
+        "img/marvel/gwyneth-paltrow.jpg",
+        "img/marvel/don-cheadle.jpg",
+        "img/marvel/scarlett-johansson.jpg" ,
+        "img/marvel/sam-rockwell.jpg",
+        "img/marvel/mickey-rourke.jpg",
+        "img/marvel/samuel-l-jackson.jpg",
+        "img/marvel/clark-gregg.jpg",
+        "img/marvel/john-slattery.jpg",
+        "img/marvel/garry-shandling.jpg",
+        "img/marvel/paul-bettany.jpg",
+        "img/marvel/kate-mara.jpg",
+        "img/marvel/leslie-bibb.jpg",
+        "img/marvel/jon-favreau.jpg",
+        "img/marvel/christiane-amanpour.jpg"
+    ], 
+    "releasedate": "May 7, 2010",
+    "runningtime": "134 minutes",
+    "boxoffice": 623.9,
+    "genre": "Action, Adventure, Sci-Fi",
+    "rating": "7.1 / 10",
+    "trailer": "https://www.youtube.com/v/FNQowwwwYa0",
+    "images": [
+        "img/marvel/iron-man-2-00.jpg",
+        "img/marvel/iron-man-00.jpg",
+        "img/marvel/iron-man-3-00.jpg"
+    ]
+}

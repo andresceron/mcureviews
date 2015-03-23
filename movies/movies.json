@@ -1,0 +1,110 @@
+[
+    {
+        "age": 0, 
+        "id": "iron-man", 
+        "imageUrl": "img/marvel/iron-man-00.jpg", 
+        "name": "Iron Man",
+        "releaseYear": "2008",
+        "rating": "7.9 / 10", 
+        "snippet": "Iron Man is a 2008 superhero film based on the Marvel Comics superhero of the same name. It is the first main installment in the Marvel Cinematic Universe and the first installment of Phase One."
+    }, 
+    {
+        "age": 1, 
+        "id": "the-incredible-hulk", 
+        "imageUrl": "img/marvel/the-incredible-hulk-00.jpg", 
+        "name": "The Incredible Hulk", 
+        "releaseYear": "2008",
+        "rating": "6.9 / 10", 
+        "snippet": "The Incredible Hulk is a 2008 superhero film based on the Marvel Comics superhero the Hulk. It is the second main installment in the Marvel Cinematic Universe and the second installment of Phase One."
+    }, 
+    {
+        "age": 2,  
+        "id": "iron-man-2", 
+        "imageUrl": "img/marvel/iron-man-2-00.jpg", 
+        "name": "Iron Man 2", 
+        "releaseYear": "2010",
+        "rating": "7.1 / 10", 
+        "snippet": "Iron Man 2 is a 2010 superhero film based on the superhero Iron Man. It is a sequel to Iron Man, the third main installment in the Marvel Cinematic Universe and the third installment of Phase One. Jon Favreau returns to film as director and actor for Happy Hogan."
+    }, 
+    {
+        "age": 3, 
+        "id": "thor", 
+        "imageUrl": "img/marvel/thor-00.jpg", 
+        "name": "Thor", 
+        "releaseYear": "2011",
+        "rating": "7.0 / 10", 
+        "snippet": "Thor is a 2011 superhero film based on the Marvel Comics superhero by the same name. It is the fourth main installment in the Marvel Cinematic Universe and the fourth installment of Phase One."
+    }, 
+    {
+        "age": 4, 
+        "id": "captain-america-the-first-avenger", 
+        "imageUrl": "img/marvel/captain-america-00.jpg", 
+        "name": "Captain America: The First Avenger", 
+        "releaseYear": "2011",
+        "rating": "6.8 / 10", 
+        "snippet": "Captain America: The First Avenger is a 2011 superhero film based on the Marvel Comics superhero Captain America. It is the fifth main installment in the Marvel Cinematic Universe and the fifth installment of Phase One."
+    }, 
+    {
+        "age": 5, 
+        "id": "the-avengers", 
+        "imageUrl": "img/marvel/the-avengers-00.jpg", 
+        "name": "The Avengers", 
+        "releaseYear": "2012", 
+        "rating": "8.2 / 10", 
+        "snippet": "The Avengers also known as Marvel's The Avengers and Avengers Assemble is a 2012 superhero film based on the Marvel Comics superhero team of the same name. It is also a crossover between/sequel of The Incredible Hulk, Iron Man 2, Thor, and Captain America: The First Avenger. It is the sixth installment in the MCU of Phase One."
+    }, 
+    {
+        "age": 6, 
+        "id": "iron-man-3", 
+        "imageUrl": "img/marvel/iron-man-3-00.jpg", 
+        "name": "Iron Man 3", 
+        "releaseYear": "2013",
+        "rating": "7.3 / 10", 
+        "snippet": "Iron Man 3 is a 2013 superhero film based on the Marvel Comics superhero Iron Man. It is a sequel to Iron Man, Iron Man 2, and The Avengers, the seventh installment in the Marvel Cinematic Universe and the first installment of Phase Two."
+    }, 
+    {
+        "age": 7, 
+        "id": "thor-the-dark-world", 
+        "imageUrl": "img/marvel/thor-the-dark-world-00.jpg", 
+        "name": "Thor: The Dark World", 
+        "releaseYear": "2013",
+        "rating": "7.1 / 10", 
+        "snippet": "Thor: The Dark World is a sequel to Thor, and The Avengers. It is the eighth main installment in the Marvel Cinematic Universe and second installment of Phase Two. It was released worldwide on October 30, 2013. Its American release date was November 8, 2013. It was directed by Alan Taylor and starred Chris Hemsworth, Tom Hiddleston, Natalie Portman, and Anthony Hopkins as Thor, Loki, Jane Foster, and Odin."
+    }, 
+    {
+        "age": 8, 
+        "id": "captain-america-the-winter-soldier", 
+        "imageUrl": "img/marvel/captain-america-the-winter-soldier-00.jpg", 
+        "name": "Captain America - The Winter Soldier", 
+        "releaseYear": "2014",
+        "rating": "7.8 / 10",
+        "snippet": "Captain America: The Winter Soldier is the sequel to Captain America: The First Avenger and The Avengers. It is the ninth main installment in the Marvel Cinematic Universe and also the third installment to Phase Two. It was released on April 4, 2014 in the United States. It was directed by Joe Russo and Anthony Russo and stars Chris Evans, Scarlett Johansson, Anthony Mackie, Sebastian Stan, Robert Redford, and Samuel L. Jackson as Captain America, Black Widow, Falcon, the Winter Soldier, Alexander Pierce, and Nick Fury, respectively."
+    }, 
+    {
+        "age": 9, 
+        "id": "guardians-of-the-galaxy", 
+        "imageUrl": "img/marvel/guardians-of-the-galaxy-00.jpg", 
+        "name": "Guardians Of The Galaxy",
+        "releaseYear": "2014",
+        "rating": "7.8 / 10", 
+        "snippet": "Guardians of the Galaxy is a superhero film made by Marvel Studios and is the tenth main installment in the Marvel Cinematic Universe and the fourth in Phase Two. The original concept for the Guardians of the Galaxy, which dates back to 1969, focused on a team of superhumans and extraterrestrials dedicated to the safeguarding of the Milky Way Galaxy. However, studio chief Kevin Feige said that the new film would focus on the more recent 2008 version of the team, rather than the original."
+    }, 
+    {
+        "age": 10, 
+        "id": "avengers-age-of-ultron", 
+        "imageUrl": "img/marvel/avengers-age-of-ultron-00.jpg", 
+        "name": "The Avengers: Age Of Ultron", 
+        "releaseYear": "2015",
+        "rating": "Not yet released", 
+        "snippet": "Avengers: Age of Ultron is an upcoming film directed by Joss Whedon and is a sequel to The Avengers, the eleventh main installment in the Marvel Cinematic Universe and the fifth in Phase Two. Avengers: Age of Ultron is scheduled for release on May 1, 2015 in North America, in 3D and IMAX."
+    }, 
+    {
+        "age": 11,  
+        "id": "ant-man", 
+        "imageUrl": "img/marvel/ant-man-00.jpg", 
+        "name": "Ant-Man", 
+        "releaseYear": "2015",
+        "rating": "Not yet released", 
+        "snippet": "Ant-Man is the title for the upcoming superhero movie based on the Marvel Comics superhero Ant-Man. It is presumed to be the twelfth main installment in the Marvel Cinematic Universe and the last main installment in Phase Two. The film is set to be released on July 17, 2015."
+    }
+]

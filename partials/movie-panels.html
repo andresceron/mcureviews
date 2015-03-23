@@ -1,0 +1,41 @@
+<section>
+    <!-- PANELS CHOOSE -->
+    <ul class="nav nav-pills nav-justified navMovies">
+        <li ng-class="{ active:panel.isSelected(1) }">
+            <a href ng-click="panel.selectTab(1)">Plot</a>
+        </li>
+        <li ng-class="{ active:panel.isSelected(2) }">
+            <a href ng-click="panel.selectTab(2)">Cast</a>
+        </li>
+        <li ng-class="{ active:panel.isSelected(3) }">
+            <a href ng-click="panel.selectTab(3)">Movie Details</a>
+        </li>
+        <li ng-class="{ active:panel.isSelected(4) }">
+            <a href ng-click="panel.selectTab(4)">Movie Trailer</a>
+        </li>
+        <li ng-class="{ active:panel.isSelected(5) }">
+            <a href ng-click="panel.selectTab(5)">Reviews</a>
+        </li>
+    </ul>
+    
+<!-- PANELS ANGULAR -->
+  <div ng-repeat="plot in movie.plot" ng-show="panel.isSelected(1)">
+    <div class="plot">{{plot}}</div>
+      </br>
+  </div>
+  <div ng-show="panel.isSelected(2)">
+    <blockquote class="castNames" ng-repeat="cast in movie.castnames track by $index"><img class="castProfile" ng-src="{{movie.castprofiles[$index]}}"> {{cast}}</blockquote>
+  </div>
+  <movie-details ng-show="panel.isSelected(3)">
+  </movie-details>
+  <div class="panel videoWrapper" ng-show="panel.isSelected(4)">
+      </br>
+        <iframe width="970" height="650" src="{{movie.trailer}}"></iframe>
+  </div>
+  <div ng-show="panel.isSelected(5)">
+      </br>
+    <movie-review ng-show="panel.isSelected(5)"></movie-review>
+  </div>
+    
+</section>
+

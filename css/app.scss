@@ -1,0 +1,283 @@
+/* app css stylesheet */
+
+
+/* General CSS */
+
+@mixin bg-opacityBlack {
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+}
+
+body {
+    background-image: url("../img/design/bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #000;
+    padding-top: 20px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.ng-dirty .ng-invalid {
+    box-shadow: 0 0 10px rgb(255, 0, 0);
+    border: 2px solid rgb(255, 0, 0);
+}
+
+.ng-dirty .ng-valid {
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+
+.clear {
+    clear: both;
+    content: " ";
+    display: table;
+
+}
+
+
+/* Movie List View */
+
+.movieList {
+    margin-top: 330px;
+    p {
+        color: #fff;
+    }
+    
+}
+
+.thumb {
+    float: left;
+    margin: -0.5em 1em 1.5em 0;
+    padding-bottom: 1em;
+    width: 11%;
+}
+
+
+.movies {
+    
+    li {
+    @include bg-opacityBlack;
+    clear: both;
+    padding-top: 10px;
+            &:hover {
+                    box-shadow: 0 0 8px rgb(255, 255, 255);
+            }
+        }
+    
+    h1 {
+        font-size: 20px;
+        margin-top: 0px;
+        a {
+            color: #fff;
+            &:hover {
+                color: rgb(222, 28, 28);
+                text-decoration:none;
+            }
+        }
+    }
+    
+    p.rating, p.release {
+        font-family: monospace;
+    }
+    
+    p.summary {
+        font-size: 14px;
+    }    
+}
+
+///** Detail View **/
+
+.singleViewContent {    
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0);
+    border: none; 
+    color: white;
+    
+    .outer {
+        
+        .movieTitle {
+            color: #fff;
+            border-bottom: 1px solid #6d6d6d;
+            font-family:sans-serif;
+            font-size: 40px;
+            border: none;
+            text-align: center;
+        }
+        button {
+            float: left;
+            margin-left: 40px;
+            margin-top: 5px;
+            position:absolute;
+            background: none;
+            text-decoration: none;
+            border: none;
+            
+            &:hover {
+                color: rgb(90, 90, 90);
+            }
+        }
+    }
+}    
+        
+.plot {
+    font-size: 15px;
+    text-align: left;
+    word-spacing: 2px;
+    line-height: 16px;  
+    margin-left: 10px;
+}
+
+.movie-images {
+    border: 5px solid #fff;
+    width: 90%;
+    overflow: hidden;
+    position: relative;
+    z-index: 100;
+    
+    .movie {
+        float: left;
+        width: 100%;
+        display: none;
+        
+        &:first-child {
+            display: block;
+        }
+    }
+}
+
+ul.movie-thumbs {
+  margin: 0 10% 0 0;
+  list-style: none;
+    
+    li {
+        border: 1px solid #fff;
+        display: inline-block;
+        margin: 15px 20px 0 5px;
+    }
+    
+    img {
+        width: 90px;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}   
+
+.castProfile {
+    width: 8%;
+}
+
+.castNames {
+    @include bg-opacityBlack;
+    font-size: 20px;
+    color: white;
+}
+
+blockquote {
+    border-left: 10px solid #450000;
+    margin: 1.5em 10px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+movie-details {
+    
+    .detailLeft, .detailCenter, .detailRight {
+        @include bg-opacityBlack;
+    }
+    
+    .profilePic {
+        float: left;
+        margin-right: 10px;
+        width: 20%;
+    }
+    
+    .detailLogos {
+        margin-right: 10px;
+        width: 11%;
+    }
+    
+    footer {
+        font-size: 12px;
+    }
+    
+    p {
+        font-size: 15px;
+    }
+
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+    background: transparent;
+    height: 0;
+    
+    iframe {
+        position: absolute;
+        top: 0;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+movie-review {
+    h3 {
+        text-align: center;
+    }
+    
+    .reviewForm {
+        left:15px;
+    }
+    
+    .reviewsPost {
+        @include bg-opacityBlack;
+        margin-bottom: 15px;
+        border: 5px solid #bfbfbf;
+        border-radius: 5px;
+    }
+    
+    .reviewsTop {
+        height: 35px;
+        background: rgba(96, 39, 39, 0.5);
+        color: white;
+        border-radius: 3px;
+        
+        .authorProfile {
+            float: left;
+            margin-top: 5px;
+            margin-left: 10px;  
+        }
+        .authorLeft {
+            padding-left: 10px;
+            padding-top: 7px;
+            float: left;
+        }
+        .timeDate {
+            float: right;
+            padding-right: 10px;
+            margin-top: 5px;  
+        }
+        .dateRight {
+            float: right;
+            padding-right: 10px;
+            padding-top: 7px;
+        }   
+    }
+    
+    .reviewsStars, .reviewsComment {
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+}

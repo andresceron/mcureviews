@@ -1,0 +1,57 @@
+<div class="row">
+    <div class="col-md-4 detailLeft">
+            <blockquote ng-repeat="director in movie.director">
+                <img class="profilePic" src="img/design/profile1.svg"/> {{director}}
+                <footer>Director</footer>
+            </blockquote>
+            <blockquote ng-repeat="writers in movie.screenwriters">
+                <img class="profilePic" src="img/design/profile1.svg"/> {{writers}}
+                <footer>Screenwriters / Writers</footer>
+            </blockquote>
+    </div>
+    
+    <div class="col-md-4 detailCenter">
+            <blockquote ng-repeat="producers in movie.producers">
+                <img class="profilePic" src="img/design/profile1.svg"/> {{producers}}
+                 <footer>Producer</footer>
+            </blockquote>
+    </div>
+    
+    <div class="col-md-4 detailRight">
+        <blockquote>
+            <div>
+                <p>
+                    <img class="detailLogos logoGenre" src="img/design/filmreel.svg"/>{{movie.genre}}
+                </p>
+            </div>
+        </blockquote>
+        <blockquote>
+            <div>
+                <p>
+                    <img class="detailLogos logoDate" src="img/design/release.svg"/>{{movie.releasedate}}
+                </p>
+            </div>
+        </blockquote>
+        <blockquote>
+            <div>
+                <p>
+                    <img class="detailLogos logoTime" src="img/design/time.svg"/>{{movie.runningtime}}
+                </p>
+            </div>
+        </blockquote>
+        <blockquote>
+            <div>
+                <p>
+                    <img class="detailLogos logoRating" src="img/design/stars.svg"/>{{movie.rating}}
+                </p>
+            </div>
+        </blockquote>
+        <blockquote>
+            <div>
+                <p>
+                    <img class="detailLogos logoMoney" src="img/design/money.svg"/>{{movie.boxoffice | currency}} Million
+                </p>
+            </div>
+        </blockquote>
+    </div>
+</div>

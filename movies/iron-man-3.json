@@ -1,0 +1,76 @@
+{
+    "id": "iron-man-3", 
+    "name": "Iron Man 3", 
+    "plot": [
+        "Some time after the Battle of New York, Tony Stark has isolated himself from the outside world, obsessively building powered suits to counter his insomnia. This causes friction with his girlfriend, Pepper Potts, before he finally admits that something about him has changed since he left New York City. The situation becomes even worse when Pepper is visited by Aldrich Killian, her old love interest who offers her to join his Advanced Idea Mechanics. The United States of America has come under attack from the Mandarin, a terrorist leader responsible for a string of bombings that have left intelligence agencies bewildered at the lack of evidence left behind. When Happy Hogan is caught up in what looks to be one of the Mandarin's attacks, Stark pulls himself out of his stupor and issues a threat of his own, inviting the Mandarin to his home to settle their differences with their fists. Shortly after, Stark is visited by an old acquittance Maya Hansen, and the same time, Stark's home is attacked and destroyed by Mandarin's helicopters. Stark survives the attack, but is left stranded in rural town Rose Hill, Tennessee when J.A.R.V.I.S. follows a flight plan left in his system, and Stark's experimental armor does not have sufficient power to return to California. The world believes Stark to be dead as the Mandarin starts issuing more threats of violence.",
+        "Stark uses his apparent death to his advantage, conducting an investigation into an explosion that bears the same hallmarks as one of the Mandarin's attacks, but which the Mandarin did not claim responsibility for. With the help of Harley Keener, a young boy living in the town, Stark discovers that each of the Mandarin's explosions was triggered by soldiers that went through the Extremis program, an experimental treatment that is intended to allow its users to recover from any injury. Extremis, however, has a fatal flaw; in the event a user is unable to regulate their internal body temperature, they will start to gain heat at an exponential rate and explode. Stark witnesses the power of Extremis first-hand when he is attacked by Ellen Brandt and Eric Savin, a pair of agents working for the Mandarin.",
+        "With Keener's help, Stark traces the Mandarin to Miami, where he infiltrates the Mandarin's headquarters with a variety of home-made weapons. There, he discovers that the Mandarin is actually a British actor named Trevor Slattery, who is completely oblivious to the acts the Mandarin has carried out. The Mandarin is a creation of Aldrich Killian, who used Hansen's research to cure for his own disability and expanded the program to include injured war veterans. After veterans started growing unstable and exploding, Killian used their deaths to cover up the flaws in Extremis and manufacture a terrorist plot. Stark recalls meeting Killian on New Year's Eve in 1999, where he cruelly misled Killian into believing he was interested in his ideas, and then deliberately ignored him. Stark blames himself for setting Killian on the path that would ultimately see him create the Mandarin. Killian reveals he has kidnapped Pepper and subjected her to the Extremis treatment, using her as leverage to get Stark to fix Extremis' flaws.",
+        "As he controls the Mandarin, Killian has also manipulated the American intelligence agencies as to the Mandarin's location. He uses this falsified intelligence to lure James Rhodes into a trap and commandeer the War Machine—now rebranded as 'Iron Patriot'—armor for himself. Stark escapes his captivity and reunites with Rhodes, discovering that Killian intends to attack President Matthew Ellis aboard Air Force One. Stark intervenes and saves the passengers, but is too late to stop Killian from abducting Ellis. They follow him to an impounded offshore oil drilling platform, where he intends to kill Ellis on live television. Vice President Rodriguez will assume control of the country, following Killian's orders in exchange for a sample of Extremis to cure his daughter's disability. With the Mandarin and the President under his control, Killian will be able to manipulate global events for his own profit.",
+        "Stark and Rhodes infiltrate the drilling platform, with Stark going to save Potts and Rhodes the President. Stark summons each of the Iron Man suits he has created, controlled remotely by J.A.R.V.I.S., to support them from the air. Rhodes secures President Ellis and leads him to safety, whilst Stark discovers that Pepper has survived the Extremis procedure. However, before he can save her, the rig collapses around them and Pepper falls two hundred feet to her apparent death. Stark has no time to process this as he is forced into a fierce fight with Killian whilst wearing various Iron Man suits. Stark successfully traps him in one of the Iron Man suits and has it self-destruct. He starts searching for Potts, who survived her fall courtesy of the abilities she received from Extremis. A deformed Killian emerges from the wreckage and reveals to Stark that he is the real Mandarin, before attempting to kill Stark, but is instead killed by Potts.",
+        "In the aftermath of the events on the drilling platform, Stark makes a promise to Potts that he'll find a cure for her Extremis condition and orders J.A.R.V.I.S. to remotely destroy each of the Iron Man suits. Both Vice President Rodriguez and Trevor are taken into police custody as Stark decides to undergo surgery to remove the pieces of shrapnel embedded in his heart. Stark has decided that even without his suits or the Arc Reactor in his chest, he will always be Iron Man. Later, Stark is talking to someone about his past traumas. It is revealed that his therapist is Dr. Bruce Banner, who had fallen asleep soon after the introduction about Bern."
+    ], 
+    "director": [
+        "Shane Black"
+    ],
+    "producers": [
+        "Kevin Feige",
+        "Jon Favreau",
+        "Victoria Alonso",
+        "Mitchell Bell",
+        "Stephen Broussard",
+        "Brad Winderbaum",
+        "Louis D'Esposito",
+        "Alan Fine",
+        "Stan Lee"
+    ],
+    "screenwriters": [
+        "Drew Pearce",
+        "Shane Black",
+        "J.J. Abrams (uncredited script-polish)"
+    ],
+    "castnames": [
+        "Robert Downey Jr. as Tony Stark / Iron Man",
+        "Gwyneth Paltrow as Pepper Potts",
+        "Don Cheadle as Lt.Col James 'Rhodey' Rhodes",
+        "Guy Pearce as Aldrich Killian",
+        "Rebecca Hall as Maya Hansen",
+        "Jon Favreau as Hogan",
+        "Ben Kingsley as Trevor Slattery",
+        "James Badge Dale as Savin",
+        "Stephanie Szostak as Brandt",
+        "Paul Bettany as Jarvis (voice)",
+        "William Sadler as President Ellis",
+        "Dale Dickey as Mrs. Davis",
+        "Ty Simpkins as Harley Keener",
+        "Miguel Ferrer as Vice President Rodriguez",
+        "Xueqi Wang as Doctor Wu"
+    ], 
+    "castprofiles": [
+        "img/marvel/robert-downey-jr.jpg",
+        "img/marvel/gwyneth-paltrow.jpg",
+        "img/marvel/don-cheadle.jpg",
+        "img/marvel/guy-pearce.jpg",
+        "img/marvel/rebecca-hall.jpg",
+        "img/marvel/jon-favreau.jpg",
+        "img/marvel/ben-kingsley.jpg",
+        "img/marvel/james-badge-dale.jpg",
+        "img/marvel/stephanie-szostak.jpg",
+        "img/marvel/paul-bettany.jpg",
+        "img/marvel/william-sadler.jpg",
+        "img/marvel/dale-dickey.jpg",
+        "img/marvel/ty-simpkins.jpg",
+        "img/marvel/miguel-ferrer.jpg",
+        "img/marvel/xueqi-wang.jpg"
+    ], 
+    "releasedate": "May 3, 2013",
+    "runningtime": "130 minutes",
+    "boxoffice": 1200,
+    "genre": "Action, Adventure, Sci-Fi",
+    "rating": "7.3 / 10",
+    "trailer": "https://www.youtube.com/v/YLorLVa95Xo",
+    "images": [
+        "img/marvel/iron-man-3-00.jpg",
+        "img/marvel/iron-man-00.jpg",
+        "img/marvel/iron-man-2-00.jpg"
+    ]
+}

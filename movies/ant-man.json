@@ -1,0 +1,76 @@
+{
+    "id": "ant-man", 
+    "name": "Ant-Man", 
+    "plot": [
+        "Armed with the astonishing ability to shrink in scale but increase in strength, master thief Scott Lang must embrace his inner-hero and help his mentor, Dr. Hank Pym, protect the secret behind his spectacular Ant-Man suit from a new generation of towering threats. Against seemingly insurmountable obstacles, Pym and Lang must plan and pull off a heist that will save the world.",
+        "..Movie not released yet..."
+    ], 
+    "director": [
+        "Peyton Reed"
+    ],
+    "producers": [
+        "Kevin Feige",
+        "Victoria Alonso",
+        "Louis D'Esposito",
+        "Brad Winderbaum",
+        "Edgar Wright",
+        "Alan Fine",
+        "Stan Lee"
+    ],
+    "screenwriters": [
+        "Edgar Wright",
+        "Joe Cornish",
+        "Adam McKay",
+        "Gabriel Ferrari",
+        "Andrew Barrer"
+    ],
+    "castnames": [
+        "Paul Rudd as Scott Lang / Ant-Man",
+        "Michael Douglas as Hank Pym",
+        "Corey Stoll as Darren Cross / Yellowjacket",
+        "Evangeline Lilly as Hope van Dyne",
+        "John Slattery as Howard Stark",
+        "Hayley Atwell as Peggy Carter",
+        "Judy Greer as Maggie Lang",
+        "David Dastmalchian as Kurt",
+        "Michael Peña as Luis",
+        "Bobby Cannavale as Paxton",
+        "Wood Harris as Gale",
+        "T.I. as Dave",
+        "Jordi Mollá as Castillo",
+        "John Slattery as Howard Stark",
+        "Vanessa Ross",
+        "Martin Donovan"
+    ], 
+    "castprofiles": [
+        "img/marvel/paul-rudd.jpg",
+        "img/marvel/michael-douglas.jpg",
+        "img/marvel/corey-stoll.jpg",
+        "img/marvel/evangeline-lilly.jpg",
+        "img/marvel/john-slattery.jpg",
+        "img/marvel/hayley-atwell.jpg",
+        "img/marvel/judy-greer.jpg",
+        "img/marvel/david-dastmalchian.jpg",
+        "img/marvel/michael-pena.jpg",
+        "img/marvel/bobby-cannavale.jpg",
+        "img/marvel/wood-harris.jpg",
+        "img/marvel/t-i.jpg",
+        "img/marvel/jordi-molla.jpg",
+        "img/marvel/john-slattery.jpg",
+        "img/marvel/vanessa-ross.jpg",
+        "img/marvel/martin-donovan.jpg"
+    ], 
+    "releasedate": "July 17, 2015",
+    "runningtime": "Unknown",
+    "boxoffice": 0,
+    "genre": "Action, Sci-Fi",
+    "rating": "Not yet released",
+    "trailer": "https://www.youtube.com/v/xInh3VhAWs8",
+    "images": [
+        "img/marvel/ant-man-00.jpg",
+        "img/marvel/ant-man-01.jpg",
+        "img/marvel/ant-man-02.jpg",
+        "img/marvel/ant-man-03.jpg",
+        "img/marvel/ant-man-04.jpg"
+    ]
+}

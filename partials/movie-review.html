@@ -1,0 +1,56 @@
+<form name="reviewForm" ng-click="reviewForm.$valid && addMessage($event)" ng-controller="fbReview">
+<div class="row">
+    <div class="col-md-4 reviewForm">
+        <h3>Make Your Review</h3>
+        </br>
+        <fieldset class="form-group">
+            <select class="form-control" ng-model="stars" required>
+                <option value="" disabled selected>Select your option</option>
+                <option value="1">1 star</option>
+                <option value="2">2 stars</option>
+                <option value="3">3 stars</option>
+                <option value="4">4 stars</option>
+                <option value="5">5 stars</option>
+                <option value="6">6 stars</option>
+                <option value="7">7 stars</option>
+                <option value="8">8 stars</option>
+                <option value="9">9 stars</option>
+                <option value="10">10 stars</option>
+            </select>
+        </fieldset>
+
+        <fieldset class="form-group"  ng-model='author' id='nameInput'>
+            <input class="form-control" ng-model='author' type='text' placeholder="Author" required>
+        </fieldset>
+
+        <fieldset class="form-group">
+            <textarea class="form-control" ng-model='body' type='textarea' id='messageInput' placeholder='Type a message...' required></textarea>
+        </fieldset>
+
+        <fieldset class="form-group">
+            <button ng-click="submit()" class="btn btn-success">Post Review</button>
+        </fieldset>
+    </div>
+    
+    <div class="col-md-8">
+        <h3>The Reviews</h3>
+        </br>
+        <div ng-repeat="msg in messages">
+            <div class="reviewsPost">
+                <div class="reviewsTop">
+                    <img class="authorProfile" src="img/design/profile.svg" height="25" alt="Profile Review"/><cite class="authorLeft">{{msg.author}}</cite>
+                    <img class="timeDate" src="img/design/time.svg" height="25" alt="Time Review"/><cite class="dateRight">{{msg.createdOn | date}}</cite>
+                </div>  
+                <div class="clearfix"></div>
+                <div class="reviewsStars">
+                    <img src="img/design/stars.svg" height="25" alt="Time Review"/><b> : {{msg.stars}}</b>
+                </div>
+                <div class="reviewsComment">
+                    <p>{{msg.comment}}</p>
+                </div> 
+            </div>
+        </div>
+    </div>
+</div>
+    
+</form>

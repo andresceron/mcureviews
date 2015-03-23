@@ -1,0 +1,28 @@
+<div class="row">
+    <div class="col-md-8">
+        <div ng-controller="StoreController as store">
+                <ul class="list-group">
+                  <li class="singleViewContent">
+                      <movie-titles></movie-titles>
+                      <movie-panels></movie-panels>
+                  </li>
+                </ul> 
+            </div>
+        <div class="clear"></div>
+    </div>
+    
+    <div class="col-md-4">
+        <div class="movie-images">
+          <img ng-src="{{img}}"
+               class="movie"
+               ng-repeat="img in movie.images"
+               ng-class="{active: mainImageUrl==img}">
+              </div>
+        <ul class="movie-thumbs">
+          <li ng-repeat="img in movie.images">
+            <img ng-src="{{img}}" ng-click="setImage(img)">
+          </li>
+        </ul>
+    </div>
+    
+</div>

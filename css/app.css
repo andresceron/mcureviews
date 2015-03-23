@@ -1,0 +1,196 @@
+/* app css stylesheet */
+/* General CSS */
+body {
+  background-image: url("../img/design/bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #000;
+  padding-top: 20px; }
+
+img {
+  max-width: 100%;
+  max-height: 100%; }
+
+.ng-dirty .ng-invalid {
+  box-shadow: 0 0 10px red;
+  border: 2px solid red; }
+
+.ng-dirty .ng-valid {
+  box-shadow: 0 0 10px white;
+  border: 2px solid white; }
+
+.clear {
+  clear: both;
+  content: " ";
+  display: table; }
+
+/* Movie List View */
+.movieList {
+  margin-top: 330px; }
+  .movieList p {
+    color: #fff; }
+
+.thumb {
+  float: left;
+  margin: -0.5em 1em 1.5em 0;
+  padding-bottom: 1em;
+  width: 11%; }
+
+.movies li {
+  background: black;
+  background: rgba(0, 0, 0, 0.5);
+  clear: both;
+  padding-top: 10px; }
+  .movies li:hover {
+    box-shadow: 0 0 8px white; }
+.movies h1 {
+  font-size: 20px;
+  margin-top: 0px; }
+  .movies h1 a {
+    color: #fff; }
+    .movies h1 a:hover {
+      color: #de1c1c;
+      text-decoration: none; }
+.movies p.rating, .movies p.release {
+  font-family: monospace; }
+.movies p.summary {
+  font-size: 14px; }
+
+.singleViewContent {
+  background: black;
+  background: transparent;
+  border: none;
+  color: white; }
+  .singleViewContent .outer .movieTitle {
+    color: #fff;
+    border-bottom: 1px solid #6d6d6d;
+    font-family: sans-serif;
+    font-size: 40px;
+    border: none;
+    text-align: center; }
+  .singleViewContent .outer button {
+    float: left;
+    margin-left: 40px;
+    margin-top: 5px;
+    position: absolute;
+    background: none;
+    text-decoration: none;
+    border: none; }
+    .singleViewContent .outer button:hover {
+      color: #5a5a5a; }
+
+.plot {
+  font-size: 15px;
+  text-align: left;
+  word-spacing: 2px;
+  line-height: 16px;
+  margin-left: 10px; }
+
+.movie-images {
+  border: 5px solid #fff;
+  width: 90%;
+  overflow: hidden;
+  position: relative;
+  z-index: 100; }
+  .movie-images .movie {
+    float: left;
+    width: 100%;
+    display: none; }
+    .movie-images .movie:first-child {
+      display: block; }
+
+ul.movie-thumbs {
+  margin: 0 10% 0 0;
+  list-style: none; }
+  ul.movie-thumbs li {
+    border: 1px solid #fff;
+    display: inline-block;
+    margin: 15px 20px 0 5px; }
+  ul.movie-thumbs img {
+    width: 90px; }
+    ul.movie-thumbs img:hover {
+      cursor: pointer; }
+
+.castProfile {
+  width: 8%; }
+
+.castNames {
+  background: black;
+  background: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  color: white; }
+
+blockquote {
+  border-left: 10px solid #450000;
+  margin: 1.5em 10px;
+  margin-top: 15px;
+  margin-bottom: 0; }
+
+movie-details .detailLeft, movie-details .detailCenter, movie-details .detailRight {
+  background: black;
+  background: rgba(0, 0, 0, 0.5); }
+movie-details .profilePic {
+  float: left;
+  margin-right: 10px;
+  width: 20%; }
+movie-details .detailLogos {
+  margin-right: 10px;
+  width: 11%; }
+movie-details footer {
+  font-size: 12px; }
+movie-details p {
+  font-size: 15px; }
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  background: transparent;
+  height: 0; }
+  .videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    height: 100%; }
+
+movie-review h3 {
+  text-align: center; }
+movie-review .reviewForm {
+  left: 15px; }
+movie-review .reviewsPost {
+  background: black;
+  background: rgba(0, 0, 0, 0.5);
+  margin-bottom: 15px;
+  border: 5px solid #bfbfbf;
+  border-radius: 5px; }
+movie-review .reviewsTop {
+  height: 35px;
+  background: rgba(96, 39, 39, 0.5);
+  color: white;
+  border-radius: 3px; }
+  movie-review .reviewsTop .authorProfile {
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px; }
+  movie-review .reviewsTop .authorLeft {
+    padding-left: 10px;
+    padding-top: 7px;
+    float: left; }
+  movie-review .reviewsTop .timeDate {
+    float: right;
+    padding-right: 10px;
+    margin-top: 5px; }
+  movie-review .reviewsTop .dateRight {
+    float: right;
+    padding-right: 10px;
+    padding-top: 7px; }
+movie-review .reviewsStars, movie-review .reviewsComment {
+  padding-top: 10px;
+  padding-left: 10px; }
+
+/*# sourceMappingURL=app.css.map */
