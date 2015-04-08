@@ -2,18 +2,18 @@
     <div class="col-md-4 detailLeft">
             <blockquote ng-repeat="director in movie.director">
                 <img class="profilePic" src="img/design/profile1.svg"/> {{director}}
-                <footer>Director</footer>
+                <p class="title">Director</title>
             </blockquote>
             <blockquote ng-repeat="writers in movie.screenwriters">
                 <img class="profilePic" src="img/design/profile1.svg"/> {{writers}}
-                <footer>Screenwriters / Writers</footer>
+                <p class="title">Screenwriters / Writers</p>
             </blockquote>
     </div>
     
     <div class="col-md-4 detailCenter">
             <blockquote ng-repeat="producers in movie.producers">
                 <img class="profilePic" src="img/design/profile1.svg"/> {{producers}}
-                 <footer>Producer</footer>
+                 <p class="title">Producer</p>
             </blockquote>
     </div>
     

@@ -1,23 +1,34 @@
 <section>
-    <!-- PANELS CHOOSE -->
-    <ul class="nav nav-pills nav-justified navMovies">
-        <li ng-class="{ active:panel.isSelected(1) }">
-            <a href ng-click="panel.selectTab(1)">Plot</a>
-        </li>
-        <li ng-class="{ active:panel.isSelected(2) }">
-            <a href ng-click="panel.selectTab(2)">Cast</a>
-        </li>
-        <li ng-class="{ active:panel.isSelected(3) }">
-            <a href ng-click="panel.selectTab(3)">Movie Details</a>
-        </li>
-        <li ng-class="{ active:panel.isSelected(4) }">
-            <a href ng-click="panel.selectTab(4)">Movie Trailer</a>
-        </li>
-        <li ng-class="{ active:panel.isSelected(5) }">
-            <a href ng-click="panel.selectTab(5)">Reviews</a>
-        </li>
-    </ul>
-    
+			<!-- Start Header ( Logo & Nav ) -->
+			<div class="navbar navbar-default navbar-top">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><img ng-src="img/design/menu.svg" height="30px"/></button>
+					</div>
+					<div class="navbar-collapse collapse">
+                        
+                        <div class="navbar-header">
+                        <!-- PANELS CHOOSE -->
+                        <ul class="nav nav-pills nav-justified navMovies">
+                            <li ng-class="{ active:panel.isSelected(1) }">
+                                <a href ng-click="panel.selectTab(1)">Plot</a>
+                            </li>
+                            <li ng-class="{ active:panel.isSelected(2) }">
+                                <a href ng-click="panel.selectTab(2)">Cast</a>
+                            </li>
+                            <li ng-class="{ active:panel.isSelected(3) }">
+                                <a href ng-click="panel.selectTab(3)">Movie Details</a>
+                            </li>
+                            <li ng-class="{ active:panel.isSelected(4) }">
+                                <a href ng-click="panel.selectTab(4)">Movie Trailer</a>
+                            </li>
+                            <li ng-class="{ active:panel.isSelected(5) }">
+                                <a href ng-click="panel.selectTab(5)">Reviews</a>
+                            </li>
+                        </ul>
+                        </div>
+
+					</div>
+			</div>
 <!-- PANELS ANGULAR -->
   <div ng-repeat="plot in movie.plot" ng-show="panel.isSelected(1)">
     <div class="plot">{{plot}}</div>
@@ -38,4 +49,3 @@
   </div>
     
 </section>
-

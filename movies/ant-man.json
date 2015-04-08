@@ -67,10 +67,8 @@
     "rating": "Not yet released",
     "trailer": "https://www.youtube.com/v/xInh3VhAWs8",
     "images": [
-        "img/marvel/ant-man-00.jpg",
-        "img/marvel/ant-man-01.jpg",
-        "img/marvel/ant-man-02.jpg",
-        "img/marvel/ant-man-03.jpg",
-        "img/marvel/ant-man-04.jpg"
+        "img/marvel/movies/ant-man-00.jpg",
+        "img/marvel/movies/ant-man-01.jpg",
+        "img/marvel/movies/ant-man-02.jpg"
     ]
 }

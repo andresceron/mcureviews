@@ -37,23 +37,33 @@
       ]);
     
     
-    var ref1 = new Firebase("https://ajsflako.firebaseio.com/reviews");
-    
-//        ref1.authWithOAuthPopup("facebook", function(error, authData) {
-//    if (error) {
-//    console.log("Login Failed!", error);
-//    } else {
-//    console.log("Authenticated successfully with payload:", authData);
-//  }
-//});
-    
-//    ref1.createUser({
-//        email    : "bobtony@firebase.com",
-//        password : "correcthorsebatterystaple"
-//        }, function(error, userData) {
-//    if (error) {
-//        console.log("Error creating user:", error);
-//    } else {
-//        console.log("Successfully created user account with uid:", userData.uid);
-//  }
-//});
+	myApp.controller('MainCtrl', ['$scope', '$firebase', '$firebaseAuth', '$location',
+        function($scope, $firebase, $firebaseAuth, $location) {
+        
+        $firebaseAuth(new Firebase("https://ajsflako.firebaseio.com/reviews").$onAuth(function(authData) {
+         
+          $scope.authenticatedUserDetails = authData;
+          
+          if (!authData) {
+            $location.path('/');
+          }
+        }
+     ))}]);
+
+	myApp.controller('LoginCtrl', ['$scope', '$firebase', '$location',
+        function($scope, $firebase, $location) {
+          
+        $scope.login = function() {
+            console.log('funkar');
+
+          var ref1 = new Firebase("https://ajsflako.firebaseio.com/reviews");
+
+          ref1.authWithOAuthPopup("facebook", function(error, authData) {
+           if (error) {
+             $scope.error = 'Something went wrong';   
+           }
+           else {
+             $location.path('/movies'); 
+           }
+        }
+     )}}]);

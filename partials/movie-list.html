@@ -1,14 +1,15 @@
-<div class="container-fluid">
+<div class="container-fluid" id="top-scroll" name="top">
       <!--Body content-->
-    
-        <div class="col-md-12">
-      <div ng-controller="SliderController">
-        <slider images="images"/>
-      </div>
+    <div class="row">
+        <div class="hidden-xs col-md-12">
+          <div ng-controller="SliderController">
+            <slider images="images"/>
+          </div>
         </div>
-      
+    </div>
+ 
   <div class="row movieList">
-    <div class="col-md-8">
+    <div class="col-md-8 movies">
       <ul class="movies">
         <li ng-repeat="movie in movies | filter:query | orderBy:orderProp"
             class="thumbnail phone-listing">
@@ -23,7 +24,7 @@
     </div>
       
         <!--Sidebar content-->
-        <div class="col-md-4">
+        <div class="col-md-4 search">
             <div>
                 <p>Search: </p>
                 <input class="form-control" ng-model="query">
@@ -37,14 +38,23 @@
                 </select>
             </div>
             </br>
-            <div>
-                <button class="btn btn-primary">Login / Sign up with Facebook</button>
+<!--
+            <div id="button">
+                <button class="btn btn-primary" ng-controller="LoginCtrl" ng-click="login()">Login / Sign up with Facebook</button>
             </div>
+-->
             </br>
-            <div>
-                <button class="btn btn">Sign up Manually</button>
-            </div>
         </div>
       
   </div>
 </div>
+
+
+
+<div class="back-to-top hidden well well-sm" scroll-to-item scroll-to="#top-scroll" id="back-to-top">
+        <i id="arrowFont" class="fa fa-arrow-up"></i> Back to Top
+</div>    
+    
+
+
+<footer-footer></footer-footer>

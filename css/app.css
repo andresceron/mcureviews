@@ -1,5 +1,9 @@
 /* app css stylesheet */
 /* General CSS */
+/* FONTS */
+@import url(http://fonts.googleapis.com/css?family=Poiret+One|Flamenco|Ubuntu+Condensed|Jura:600|Didact+Gothic);
+/* Backgrounds with opacity */
+/* Media queries */
 body {
   background-image: url("../img/design/bg.jpg");
   background-position: center center;
@@ -7,7 +11,12 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-color: #000;
-  padding-top: 20px; }
+  padding-top: 20px;
+  width: 100%; }
+  @media only screen and (max-width: 767px) {
+    body {
+      background-image: none;
+      background-color: #270000; } }
 
 img {
   max-width: 100%;
@@ -31,57 +40,104 @@ img {
   margin-top: 330px; }
   .movieList p {
     color: #fff; }
+  @media only screen and (max-width: 767px) {
+    .movieList {
+      margin-top: 0;
+      display: table; } }
+  @media only screen and (max-width: 767px) {
+    .movieList .movies {
+      display: table-footer-group; } }
+  @media only screen and (max-width: 767px) {
+    .movieList .search {
+      display: table-header-group; }
+      .movieList .search #button {
+        text-align: center; } }
 
 .thumb {
   float: left;
   margin: -0.5em 1em 1.5em 0;
   padding-bottom: 1em;
   width: 11%; }
+  @media only screen and (max-width: 767px) {
+    .thumb {
+      width: 35%; } }
 
-.movies li {
-  background: black;
-  background: rgba(0, 0, 0, 0.5);
-  clear: both;
-  padding-top: 10px; }
-  .movies li:hover {
-    box-shadow: 0 0 8px white; }
-.movies h1 {
-  font-size: 20px;
-  margin-top: 0px; }
-  .movies h1 a {
-    color: #fff; }
-    .movies h1 a:hover {
-      color: #de1c1c;
-      text-decoration: none; }
-.movies p.rating, .movies p.release {
-  font-family: monospace; }
-.movies p.summary {
-  font-size: 14px; }
+.movies {
+  padding: 0; }
+  .movies li {
+    background: black;
+    background: rgba(0, 0, 0, 0.5);
+    clear: both;
+    padding-top: 10px; }
+    .movies li:hover {
+      box-shadow: 0 0 8px white; }
+  .movies h1 {
+    font-family: "Jura", sans-serif;
+    font-size: 20px;
+    margin-top: 0px; }
+    .movies h1 a {
+      color: #fff; }
+      .movies h1 a:hover {
+        color: #de1c1c;
+        text-decoration: none; }
+  .movies p.rating, .movies p.release {
+    font-family: monospace; }
+  .movies p.summary {
+    font-size: 14px; }
 
 .singleViewContent {
-  background: black;
-  background: transparent;
-  border: none;
   color: white; }
+  .singleViewContent .navbar-default {
+    background: black;
+    background: transparent;
+    border: none; }
+  @media only screen and (max-width: 767px) {
+    .singleViewContent section {
+      margin-top: -100px; }
+    .singleViewContent .navbar {
+      background: black;
+      text-decoration: none;
+      border: none;
+      top: -35px; }
+    .singleViewContent button {
+      border: none; } }
+  .singleViewContent a {
+    font-family: "Ubuntu Condensed", sans-serif;
+    text-transform: uppercase; }
   .singleViewContent .outer .movieTitle {
     color: #fff;
     border-bottom: 1px solid #6d6d6d;
-    font-family: sans-serif;
-    font-size: 40px;
+    font-family: "Jura", sans-serif;
+    font-size: 30px;
     border: none;
+    padding-bottom: 20px;
     text-align: center; }
+    @media only screen and (max-width: 767px) {
+      .singleViewContent .outer .movieTitle {
+        font-size: 20px;
+        padding-top: 40px;
+        padding-bottom: 20px; } }
   .singleViewContent .outer button {
     float: left;
     margin-left: 40px;
-    margin-top: 5px;
     position: absolute;
     background: none;
     text-decoration: none;
-    border: none; }
+    border: none;
+    z-index: 1000; }
     .singleViewContent .outer button:hover {
-      color: #5a5a5a; }
+      color: #5a5a5a;
+      cursor: pointer; }
+    @media only screen and (max-width: 767px) {
+      .singleViewContent .outer button {
+        margin-top: -30px;
+        left: -15px;
+        color: #5d5d5d; }
+        .singleViewContent .outer button:active {
+          color: black; } }
 
 .plot {
+  font-family: "Poiret One", cursive;
   font-size: 15px;
   text-align: left;
   word-spacing: 2px;
@@ -90,16 +146,16 @@ img {
 
 .movie-images {
   border: 5px solid #fff;
-  width: 90%;
+  width: 400px;
+  height: 595px;
   overflow: hidden;
   position: relative;
+  float: left;
   z-index: 100; }
-  .movie-images .movie {
-    float: left;
-    width: 100%;
-    display: none; }
-    .movie-images .movie:first-child {
-      display: block; }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .movie-images {
+      width: 300px;
+      height: 445px; } }
 
 ul.movie-thumbs {
   margin: 0 10% 0 0;
@@ -107,20 +163,31 @@ ul.movie-thumbs {
   ul.movie-thumbs li {
     border: 1px solid #fff;
     display: inline-block;
-    margin: 15px 20px 0 5px; }
+    background-color: black;
+    margin: 5px; }
   ul.movie-thumbs img {
-    width: 90px; }
+    height: 150px; }
     ul.movie-thumbs img:hover {
       cursor: pointer; }
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+      ul.movie-thumbs img {
+        height: 75px; } }
 
 .castProfile {
   width: 8%; }
+  @media only screen and (max-width: 767px) {
+    .castProfile {
+      width: 20%; } }
 
 .castNames {
   background: black;
   background: rgba(0, 0, 0, 0.5);
+  font-family: "Poiret One", cursive;
   font-size: 20px;
   color: white; }
+  @media only screen and (max-width: 767px) {
+    .castNames {
+      font-size: 12px; } }
 
 blockquote {
   border-left: 10px solid #450000;
@@ -128,20 +195,40 @@ blockquote {
   margin-top: 15px;
   margin-bottom: 0; }
 
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  movie-details blockquote {
+    font-size: 12px; } }
 movie-details .detailLeft, movie-details .detailCenter, movie-details .detailRight {
   background: black;
-  background: rgba(0, 0, 0, 0.5); }
+  background: rgba(0, 0, 0, 0.5);
+  font-family: "Poiret One", cursive; }
 movie-details .profilePic {
   float: left;
   margin-right: 10px;
   width: 20%; }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    movie-details .profilePic {
+      width: 45%; } }
 movie-details .detailLogos {
   margin-right: 10px;
   width: 11%; }
-movie-details footer {
-  font-size: 12px; }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    movie-details .detailLogos {
+      width: 15%; } }
+movie-details .title {
+  font-size: 12px;
+  font-family: "Flamenco", cursive;
+  content: '\2014 \00A0'; }
+  movie-details .title:before {
+    content: '\2014 \00A0'; }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    movie-details .title {
+      font-size: 9px; } }
 movie-details p {
   font-size: 15px; }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    movie-details p {
+      font-size: 12px; } }
 
 .videoWrapper {
   position: relative;
@@ -153,15 +240,18 @@ movie-details p {
   .videoWrapper iframe {
     position: absolute;
     top: 0;
-    margin-left: 10px;
-    margin-right: 10px;
     width: 100%;
     height: 100%; }
 
 movie-review h3 {
+  font-family: "Ubuntu Condensed", sans-serif;
   text-align: center; }
 movie-review .reviewForm {
   left: 15px; }
+  @media only screen and (max-width: 767px) {
+    movie-review .reviewForm {
+      left: 0;
+      text-align: center; } }
 movie-review .reviewsPost {
   background: black;
   background: rgba(0, 0, 0, 0.5);
@@ -192,5 +282,80 @@ movie-review .reviewsTop {
 movie-review .reviewsStars, movie-review .reviewsComment {
   padding-top: 10px;
   padding-left: 10px; }
+
+footer {
+  color: white;
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-size: 18px;
+  background: rgba(62, 62, 62, 0.7);
+  text-align: center; }
+  footer button {
+    border: none;
+    background: transparent; }
+  footer .copyright {
+    margin-top: 30px; }
+  footer .links {
+    margin-top: 30px; }
+
+about {
+  color: white; }
+  about button {
+    background: transparent;
+    border: none;
+    padding-left: 20px; }
+  about .text {
+    padding-top: 80px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    text-align: center; }
+    @media only screen and (max-width: 767px) {
+      about .text {
+        margin-top: -50px;
+        padding-bottom: 0px; } }
+    about .text img {
+      margin-top: 250px; }
+      @media only screen and (max-width: 767px) {
+        about .text img {
+          margin-top: -30px; } }
+  about a {
+    color: red; }
+    about a:hover {
+      color: #6b0505;
+      text-decoration: none; }
+
+contact {
+  color: white;
+  text-align: center; }
+  contact .form-group {
+    width: 50%; }
+  contact button {
+    background: transparent;
+    border: none; }
+  contact form label span {
+    color: red; }
+  contact form button {
+    color: red;
+    background: black; }
+
+#back-to-top.affix-top {
+  position: absolute;
+  /* allows it to "slide" up into view */
+  bottom: -82px;
+  /* negative of the offset - height of link element */
+  right: 50px;
+  /* padding from the left side of the window */ }
+
+#back-to-top.affix {
+  position: fixed;
+  /* keeps it on the bottom once in view */
+  bottom: 18px;
+  /* height of link element */
+  right: 50px;
+  /* padding from the left side of the window */ }
+
+#arrowFont {
+  font-size: 20px;
+  color: red; }
 
 /*# sourceMappingURL=app.css.map */

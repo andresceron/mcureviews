@@ -71,8 +71,12 @@
     "rating": "8.2 / 10",
     "trailer": "https://www.youtube.com/v/2LIQ2-PZBC8",
     "images": [
-        "img/marvel/guardians-of-the-galaxy-00.jpg",
-        "img/marvel/iron-man-00.jpg",
-        "img/marvel/iron-man-2-00.jpg"
+        "img/marvel/movies/guardians-of-the-galaxy-00.jpg",
+        "img/marvel/movies/guardians-of-the-galaxy-01.jpg",
+        "img/marvel/movies/guardians-of-the-galaxy-02.jpg",
+        "img/marvel/movies/guardians-of-the-galaxy-03.jpg",
+        "img/marvel/movies/guardians-of-the-galaxy-04.jpg",
+        "img/marvel/movies/guardians-of-the-galaxy-05.jpg"
+ 
     ]
 }

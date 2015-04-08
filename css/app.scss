@@ -3,12 +3,38 @@
 
 /* General CSS */
 
+
+/* FONTS */
+@import url(http://fonts.googleapis.com/css?family=Poiret+One|Flamenco|Ubuntu+Condensed|Jura:600|Didact+Gothic);
+$font-jura: 'Jura', sans-serif;
+$font-poiret: 'Poiret One', cursive;
+$font-flamenco: 'Flamenco', cursive;
+$font-ubuntu: 'Ubuntu Condensed', sans-serif;
+$font-didact: 'Didact Gothic', sans-serif;
+
+/* Backgrounds with opacity */
 @mixin bg-opacityBlack {
     background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.5);
 }
 
+$width-movie: 400px;
+$height-movie: 595px;
+$height-thumb: 150px;
+
+/* Media queries */
+$mobile: 767px;
+$tablet-min: 768px;
+$tablet-max: 1024px;
+
+$mobilePic: 35%;
+
+
 body {
+    @media only screen and (max-width: $mobile) { 
+        background-image: none;
+        background-color: #270000;
+    }
     background-image: url("../img/design/bg.jpg");
     background-position: center center;
     background-repeat: no-repeat;
@@ -16,6 +42,8 @@ body {
     background-size: cover;
     background-color: #000;
     padding-top: 20px;
+    width: 100%; 
+
 }
 
 img {
@@ -33,12 +61,10 @@ img {
     border: 2px solid rgb(255, 255, 255);
 }
 
-
 .clear {
     clear: both;
     content: " ";
     display: table;
-
 }
 
 
@@ -50,6 +76,25 @@ img {
         color: #fff;
     }
     
+    @media only screen and (max-width: $mobile) { 
+        margin-top: 0;
+        display: table;
+    }
+    
+    .movies {
+        @media only screen and (max-width: $mobile) {
+            display: table-footer-group;
+        }
+    }
+    .search {
+        @media only screen and (max-width: $mobile) {
+            display: table-header-group;
+            #button {
+                text-align: center;
+            }
+        }
+    }
+    
 }
 
 .thumb {
@@ -57,21 +102,27 @@ img {
     margin: -0.5em 1em 1.5em 0;
     padding-bottom: 1em;
     width: 11%;
+    
+    @media only screen and (max-width: $mobile) { 
+        width: 35%;
+    }
 }
 
 
 .movies {
+        padding: 0;
     
     li {
     @include bg-opacityBlack;
     clear: both;
     padding-top: 10px;
             &:hover {
-                    box-shadow: 0 0 8px rgb(255, 255, 255);
+                box-shadow: 0 0 8px rgb(255, 255, 255);
             }
         }
     
     h1 {
+        font-family: $font-jura;
         font-size: 20px;
         margin-top: 0px;
         a {
@@ -95,38 +146,79 @@ img {
 ///** Detail View **/
 
 .singleViewContent {    
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0);
-    border: none; 
     color: white;
+    .navbar-default {
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0);
+        border: none;
+    }
+    
+    @media only screen and (max-width: $mobile) { 
+        section { 
+            margin-top: -100px;
+        }
+        .navbar {
+            background: rgb(0, 0, 0);
+            text-decoration: none;
+            border: none;
+            top: -35px;
+        }
+        button {
+            border: none;
+        }
+    }
+
+    a {
+        font-family: $font-ubuntu;
+        text-transform: uppercase;
+    }
     
     .outer {
         
         .movieTitle {
             color: #fff;
             border-bottom: 1px solid #6d6d6d;
-            font-family:sans-serif;
-            font-size: 40px;
+            font-family: $font-jura;
+            font-size: 30px;
             border: none;
+            padding-bottom: 20px;
             text-align: center;
+            @media only screen and (max-width: $mobile) { 
+                font-size: 20px;
+                padding-top: 40px;
+                padding-bottom: 20px;
+            }
+            
         }
         button {
             float: left;
             margin-left: 40px;
-            margin-top: 5px;
             position:absolute;
             background: none;
             text-decoration: none;
             border: none;
+            z-index: 1000;
             
             &:hover {
                 color: rgb(90, 90, 90);
+                cursor: pointer;
+            }
+            
+            @media only screen and (max-width: $mobile) { 
+                margin-top: -30px;
+                left: -15px;
+                color: #5d5d5d;
+                
+                &:active {
+                    color: black;
+                }
             }
         }
     }
 }    
         
 .plot {
+    font-family: $font-poiret;
     font-size: 15px;
     text-align: left;
     word-spacing: 2px;
@@ -136,20 +228,17 @@ img {
 
 .movie-images {
     border: 5px solid #fff;
-    width: 90%;
+    width: $width-movie;
+    height: $height-movie;
     overflow: hidden;
     position: relative;
+    float: left;
     z-index: 100;
-    
-    .movie {
-        float: left;
-        width: 100%;
-        display: none;
-        
-        &:first-child {
-            display: block;
-        }
+    @media only screen and (min-width: $tablet-min) and (max-width: $tablet-max) { 
+        width: $width-movie - 100px;
+        height: $height-movie - 150px;
     }
+    
 }
 
 ul.movie-thumbs {
@@ -159,25 +248,36 @@ ul.movie-thumbs {
     li {
         border: 1px solid #fff;
         display: inline-block;
-        margin: 15px 20px 0 5px;
+        background-color: black;
+        margin: 5px;
     }
     
     img {
-        width: 90px;
+          height: $height-thumb;
         &:hover {
             cursor: pointer;
+        }
+        @media only screen and (min-width: $tablet-min) and (max-width: $tablet-max) { 
+            height: $height-thumb / 2;
         }
     }
 }   
 
 .castProfile {
     width: 8%;
+    @media only screen and (max-width: $mobile) { 
+        width: $mobilePic - 15;
+    }
 }
 
 .castNames {
     @include bg-opacityBlack;
+    font-family: $font-poiret;
     font-size: 20px;
     color: white;
+    @media only screen and (max-width: $mobile) { 
+        font-size: 12px;
+    }
 }
 
 blockquote {
@@ -185,33 +285,57 @@ blockquote {
     margin: 1.5em 10px;
     margin-top: 15px;
     margin-bottom: 0;
+    
+    
 }
 
 movie-details {
+    blockquote {
+        @media only screen and (min-width: $tablet-min) and (max-width: $tablet-max) { 
+            font-size: 12px;
+        }
+    }
     
     .detailLeft, .detailCenter, .detailRight {
         @include bg-opacityBlack;
+        font-family: $font-poiret;
     }
     
     .profilePic {
         float: left;
         margin-right: 10px;
         width: 20%;
+        @media only screen and (min-width: $tablet-min) and (max-width: $tablet-max) { 
+            width: 45%;
+        }
     }
     
     .detailLogos {
         margin-right: 10px;
         width: 11%;
+        @media only screen and (min-width: $tablet-min) and (max-width: $tablet-max) { 
+            width: 15%;
+        }
     }
     
-    footer {
+    .title {
+        &:before {
+            content: '\2014 \00A0';
+        }
         font-size: 12px;
+        font-family: $font-flamenco;
+        content: '\2014 \00A0';
+        @media only screen and (min-width: $tablet-min) and (max-width: $tablet-max) { 
+            font-size: 9px
+        }
     }
     
     p {
         font-size: 15px;
+        @media only screen and (min-width: $tablet-min) and (max-width: $tablet-max) { 
+            font-size: 12px;
+        }
     }
-
 }
 
 .videoWrapper {
@@ -224,8 +348,6 @@ movie-details {
     iframe {
         position: absolute;
         top: 0;
-        margin-left: 10px;
-        margin-right: 10px;
         width: 100%;
         height: 100%;
     }
@@ -233,11 +355,16 @@ movie-details {
 
 movie-review {
     h3 {
+        font-family: $font-ubuntu;
         text-align: center;
     }
     
     .reviewForm {
         left:15px;
+        @media only screen and (max-width: $mobile) { 
+            left: 0;
+            text-align: center;
+        }
     }
     
     .reviewsPost {
@@ -280,4 +407,99 @@ movie-review {
         padding-left: 10px;
     }
 
+}
+
+footer {
+    color: white;
+    font-family: $font-ubuntu;
+    font-size: 18px;
+    background: rgba(62, 62, 62, 0.7);
+    text-align: center;
+    button {
+        border: none;
+        background: transparent;
+    }
+    .copyright {
+        margin-top: 30px;
+    }
+    .links {
+        margin-top: 30px;
+    }
+}
+
+about {    
+    
+    color: white;
+    button {
+        background: transparent;
+        border: none;
+        padding-left: 20px;
+    }
+    .text {
+        padding-top: 80px;
+        padding-right: 100px;
+        padding-left: 100px;
+        padding-bottom: 100px;
+        text-align: center;
+        @media only screen and (max-width: $mobile) { 
+            margin-top: -50px;
+            padding-bottom: 0px;
+        }
+        img {
+            margin-top: 250px;
+            @media only screen and (max-width: $mobile) { 
+                margin-top: -30px;
+            }
+        }
+    }
+    a {
+        color: red;
+        &:hover {
+            color: #6b0505;
+            text-decoration: none;
+        }
+    }
+}
+
+contact {
+    .form-group {
+        width: 50%;
+    }
+    color: white;
+    text-align: center;
+    button {
+        background: transparent;
+        border: none;
+    }
+    
+    form {    
+        label {
+            
+            span {
+                color: red;
+            }
+        }
+
+        button {
+            color: red;
+            background: black;
+        }
+    }
+}
+
+
+#back-to-top.affix-top {
+    position: absolute; /* allows it to "slide" up into view */
+    bottom: -82px; /* negative of the offset - height of link element */
+    right: 50px; /* padding from the left side of the window */
+}
+#back-to-top.affix {
+    position: fixed; /* keeps it on the bottom once in view */
+    bottom: 18px; /* height of link element */
+    right: 50px; /* padding from the left side of the window */
+}
+
+#arrowFont {
+    font-size: 20px;
+    color: red;
 }

@@ -2,7 +2,7 @@
     {
         "age": 0, 
         "id": "iron-man", 
-        "imageUrl": "img/marvel/iron-man-00.jpg", 
+        "imageUrl": "img/marvel/movies/iron-man-00.jpg", 
         "name": "Iron Man",
         "releaseYear": "2008",
         "rating": "7.9 / 10", 
@@ -11,7 +11,7 @@
     {
         "age": 1, 
         "id": "the-incredible-hulk", 
-        "imageUrl": "img/marvel/the-incredible-hulk-00.jpg", 
+        "imageUrl": "img/marvel/movies/the-incredible-hulk-00.jpg", 
         "name": "The Incredible Hulk", 
         "releaseYear": "2008",
         "rating": "6.9 / 10", 
@@ -20,7 +20,7 @@
     {
         "age": 2,  
         "id": "iron-man-2", 
-        "imageUrl": "img/marvel/iron-man-2-00.jpg", 
+        "imageUrl": "img/marvel/movies/iron-man-2-00.jpg", 
         "name": "Iron Man 2", 
         "releaseYear": "2010",
         "rating": "7.1 / 10", 
@@ -29,7 +29,7 @@
     {
         "age": 3, 
         "id": "thor", 
-        "imageUrl": "img/marvel/thor-00.jpg", 
+        "imageUrl": "img/marvel/movies/thor-00.jpg", 
         "name": "Thor", 
         "releaseYear": "2011",
         "rating": "7.0 / 10", 
@@ -38,7 +38,7 @@
     {
         "age": 4, 
         "id": "captain-america-the-first-avenger", 
-        "imageUrl": "img/marvel/captain-america-00.jpg", 
+        "imageUrl": "img/marvel/movies/captain-america-00.jpg", 
         "name": "Captain America: The First Avenger", 
         "releaseYear": "2011",
         "rating": "6.8 / 10", 
@@ -47,7 +47,7 @@
     {
         "age": 5, 
         "id": "the-avengers", 
-        "imageUrl": "img/marvel/the-avengers-00.jpg", 
+        "imageUrl": "img/marvel/movies/the-avengers-00.jpg", 
         "name": "The Avengers", 
         "releaseYear": "2012", 
         "rating": "8.2 / 10", 
@@ -56,7 +56,7 @@
     {
         "age": 6, 
         "id": "iron-man-3", 
-        "imageUrl": "img/marvel/iron-man-3-00.jpg", 
+        "imageUrl": "img/marvel/movies/iron-man-3-00.jpg", 
         "name": "Iron Man 3", 
         "releaseYear": "2013",
         "rating": "7.3 / 10", 
@@ -65,7 +65,7 @@
     {
         "age": 7, 
         "id": "thor-the-dark-world", 
-        "imageUrl": "img/marvel/thor-the-dark-world-00.jpg", 
+        "imageUrl": "img/marvel/movies/thor-the-dark-world-00.jpg", 
         "name": "Thor: The Dark World", 
         "releaseYear": "2013",
         "rating": "7.1 / 10", 
@@ -74,7 +74,7 @@
     {
         "age": 8, 
         "id": "captain-america-the-winter-soldier", 
-        "imageUrl": "img/marvel/captain-america-the-winter-soldier-00.jpg", 
+        "imageUrl": "img/marvel/movies/captain-america-the-winter-soldier-00.jpg", 
         "name": "Captain America - The Winter Soldier", 
         "releaseYear": "2014",
         "rating": "7.8 / 10",
@@ -83,7 +83,7 @@
     {
         "age": 9, 
         "id": "guardians-of-the-galaxy", 
-        "imageUrl": "img/marvel/guardians-of-the-galaxy-00.jpg", 
+        "imageUrl": "img/marvel/movies/guardians-of-the-galaxy-00.jpg", 
         "name": "Guardians Of The Galaxy",
         "releaseYear": "2014",
         "rating": "7.8 / 10", 
@@ -92,7 +92,7 @@
     {
         "age": 10, 
         "id": "avengers-age-of-ultron", 
-        "imageUrl": "img/marvel/avengers-age-of-ultron-00.jpg", 
+        "imageUrl": "img/marvel/movies/avengers-age-of-ultron-00.jpg", 
         "name": "The Avengers: Age Of Ultron", 
         "releaseYear": "2015",
         "rating": "Not yet released", 
@@ -101,7 +101,7 @@
     {
         "age": 11,  
         "id": "ant-man", 
-        "imageUrl": "img/marvel/ant-man-00.jpg", 
+        "imageUrl": "img/marvel/movies/ant-man-00.jpg", 
         "name": "Ant-Man", 
         "releaseYear": "2015",
         "rating": "Not yet released", 

@@ -1,0 +1,55 @@
+<contact>
+        <button ng-click="back()">
+            <img ng-src="img/design/backarrow.svg" height="30px">
+            Back to Movie List
+        </button>
+    <div class="row">
+        <div class="col-md-12 text">
+            <h1> 
+                CONTACT
+            </h1>
+            </br>
+            <p>
+                If you have any suggestion or find an issue with this application, feel free to contact me.
+            </p>
+
+        
+        
+ 		<!-- Form -->
+		<form id="contact-form" action="contactform.php" method="post">
+			<div class="form-group">
+				<label>Name: <span>*</span></label>
+					<input class="form-control"
+                           placeholder="e.g. Tony Stark" 
+                           type="text" 
+                           name="name" 
+                           required 
+                           autofocus>
+			</div>
+			<div class="form-group">
+				<label>Email: <span>*</span></label>
+					<input class="form-control"
+                           placeholder="e.g. iron.man@marvel.com" 
+                           type="email" 
+                           name="email"
+                           required>
+			</div>
+			<div class="form-group">
+				<label>Message: <span>*</span></label>
+					<textarea class="form-control"
+                              placeholder="Please write your message here" 
+                              required></textarea>
+			</div>
+			<div>
+				<button name="submit" 
+                        type="submit" 
+                        id="contact-submit">Send Email
+                </button>
+			</div>
+		</form>
+		<!-- /Form -->       
+        
+        
+        </div>
+    </div>
+</contact>

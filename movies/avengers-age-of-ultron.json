@@ -70,8 +70,16 @@
     "rating": "Not yet released",
     "trailer": "https://www.youtube.com/v/tmeOjFno6Do",
     "images": [
-        "img/marvel/avengers-age-of-ultron-00.jpg",
-        "img/marvel/iron-man-00.jpg",
-        "img/marvel/iron-man-2-00.jpg"
+        "img/marvel/movies/avengers-age-of-ultron-00.jpg",
+        "img/marvel/movies/avengers-age-of-ultron-01.jpg",
+        "img/marvel/movies/avengers-age-of-ultron-02.jpg",
+        "img/marvel/movies/avengers-age-of-ultron-03.jpg",
+        "img/marvel/movies/avengers-age-of-ultron-04.jpg",
+        "img/marvel/movies/avengers-age-of-ultron-05.jpg",
+        "img/marvel/movies/avengers-age-of-ultron-06.jpg",
+        "img/marvel/movies/avengers-age-of-ultron-07.jpg",
+        "img/marvel/movies/avengers-age-of-ultron-08.jpg",
+        "img/marvel/movies/avengers-age-of-ultron-09.jpg",
+        "img/marvel/movies/avengers-age-of-ultron-10.jpg"
     ]
 }

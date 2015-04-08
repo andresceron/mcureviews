@@ -50,3 +50,24 @@ marvelAnimations.animation('.movie', function() {
     removeClass: animateDown
   };
 });
+
+
+
+marvelAnimations.animation('.reveal-animation', function() {
+  return {
+    enter: function(element, done) {
+      element.css('display', 'none');
+      element.fadeIn(700, done);
+      return function() {
+        element.stop();
+      }
+    },
+    leave: function(element, done) {
+      element.fadeOut(700, done)
+      return function() {
+        element.stop();
+      }
+    }
+  }
+})
+

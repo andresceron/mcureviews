@@ -20,6 +20,14 @@ app.config(['$routeProvider',
         templateUrl: 'partials/movie-single.html',
         controller: 'MarvelDetailCtrl'
       }).
+      when('/about', {
+        templateUrl: 'partials/about.html',
+        controller: 'AboutCtrl'
+      }).      
+      when('/contact', {
+        templateUrl: 'partials/contact.html',
+        controller: 'AboutCtrl'
+      }).
       otherwise({
         redirectTo: '/movies'
       });
@@ -39,3 +47,29 @@ app.config(function($sceDelegateProvider) {
   ]);
 });
 
+//$(window).scroll(function() {
+//    
+//if ( ($(window).scrollTop() + 100) < $(document).scrollTop() ) {
+//    $('#back-to-top').removeClass('hidden').affix({
+//        // how far to scroll down before link "slides" into view
+//        offset: {top:100}
+//    });
+//}      
+//    
+//});
+
+
+
+
+$(window).scroll(function() {
+    if ($(window).scrollTop() > 100) {
+        $('#back-to-top').removeClass('hidden').affix({
+            offset: {
+                top:100
+            }
+        })
+}
+    else {  
+        // <= 100px from top - hide div
+    }
+});

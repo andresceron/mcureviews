@@ -23,25 +23,16 @@ marvelControllers.controller('MarvelDetailCtrl', ['$scope', '$routeParams', 'Mov
     $rootScope.currentPage;
     
     var history = [];
-    /**
-     * Get the previous location hash
-     */
+
     $rootScope.$on('$routeChangeSuccess', function() {
         history.push($location.$$path);
         $rootScope.currentPage = history.slice(-1)[0];
     });
     
-    /**
-     * If previous location hash's length
-     * is longer than 1, remove both indexes
-     * and change location hash to the previous one
-     */
     $rootScope.back = function() {
         var previousUrl = history.length > 1 ? history.splice(-2)[0] : "/movies/";
         $location.path(previousUrl);
-    };
-    
-    
+    }; 
   }]);
 
 marvelControllers.controller('StoreController', ['$http', '$routeParams', function($http, $routeParams){
@@ -52,6 +43,22 @@ marvelControllers.controller('StoreController', ['$http', '$routeParams', functi
       });
   }]);
 
+marvelControllers.controller('AboutCtrl', ['$scope', '$location', '$rootScope',function($scope, $location, $rootScope){ 
+    $scope.goTo = function (hash) { 
+        $location.path(hash);
+    }
+    var history = [];
+    
+    $rootScope.$on('$routeChangeSuccess', function() {
+        history.push($location.$$path);
+        $rootScope.currentPage = history.slice(-1)[0];
+    });
+    
+    $rootScope.back = function() {
+        var previousUrl = history.length > 1 ? history.splice(-2)[0] : "/movies/";
+        $location.path(previousUrl);
+    };
+}]);
 
 marvelControllers.controller('SliderController', function($scope) {
   $scope.images = [{
@@ -68,5 +75,4 @@ marvelControllers.controller('SliderController', function($scope) {
     src: '../img/design/slide6.jpg',
   }];
 });
-
 

@@ -48,6 +48,13 @@ app.directive('movieTitles', function(){
         restrict: 'E',
         templateUrl: 'partials/movie-details.html'
     };
+}); 
+
+app.directive('footerFooter', function(){
+    return { 
+        restrict: 'E',
+        templateUrl: 'partials/footer.html'
+    };
 });
 
 
@@ -100,3 +107,18 @@ app.directive('slider', function ($timeout) {
 	templateUrl:'partials/slider.html'
   }
 });
+
+
+app.directive('scrollToItem', function() {                                                      
+    return {                                                                                 
+        restrict: 'A',                                                                       
+        scope: {                                                                             
+            scrollTo: "@"                                                                    
+        },                                                                                   
+        link: function(scope, $elm,attr) {                                                   
+
+            $elm.on('click', function() {                                                    
+                $('html,body').animate({scrollTop: $(scope.scrollTo).offset().top }, "slow");
+            });                                                                              
+        }                                                                                    
+    }});
